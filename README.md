@@ -1,5 +1,7 @@
 # chrome-issue-1304217
-To test make sure to first install yarn if not already in you local dev enviroment. Yarn install will automatically download the required packages. Use  `yarn serve` to run the project locally. Once app started navigate to http://localhost:8080/dist/ for the index page. From there you will be able to see the issue in the Chrome/Edge DevTools Source Panel when you open the webpack:// >> src >> home >> home.vue
+To test make sure to first install yarn if not already in you local dev enviroment. Yarn install will automatically download the required packages. Use  `yarn serve` to run the project locally. Once app started navigate to http://localhost:8080/dist/ for the index page. From there you will be able to see the issue in the Chrome/Edge DevTools Source Panel when you open the `webpack:// >> src >> home >> home.vue`.
+
+Checkout source_panel image in project root. This shows what the source is currently. It should show the contents of Home.vue.
 
 ## Project setup
 ```
